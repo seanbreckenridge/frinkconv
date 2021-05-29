@@ -69,6 +69,7 @@ runconversions() {
 main() {
 	case "$1" in
 	repl)
+		shift
 		repl "$@"
 		;;
 	*)
