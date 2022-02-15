@@ -20,9 +20,13 @@ This was converted to modern `bash` and made configurable from the ['starter scr
 
 Requires: `java`, `rlwrap`, `wget`
 
-Copy the `frinkconv` script onto your `$PATH` and make it executable. To automate:
+Copy the `frinkconv` script onto your `$PATH` and make it executable
 
-`sh <(curl -sSL http://git.io/sinister) -u 'https://raw.githubusercontent.com/seanbreckenridge/frinkconv/master/frinkconv'`
+Could use [`basher`](https://github.com/basherpm/basher) to do that for you:
+
+```bash
+basher install seanbreckenridge/frinkconv
+```
 
 ## Examples
 
